@@ -1,0 +1,141 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fdf6f9;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: navy;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header .logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: pink;
+}
+
+/* CONTENT */
+.content {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: navy;
+}
+
+/* ABOUT FLEX */
+.about-flex {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-box {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 600px;
+  text-align: justify;
+  border-left: 6px solid pink;
+}
+
+.about-box p {
+  margin-bottom: 15px;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+aside img {
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* GALLERY */
+.gallery .grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.gallery .card {
+  flex: 1 1 220px;
+  max-width: 250px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* CONTACT */
+.contact-section {
+  background: #ffeef5;
+  padding: 60px 20px;
+  border-top: 3px solid pink;
+}
+
+.ig-link {
+  color: navy;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 6px 12px;
+  background: pink;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.ig-link:hover {
+  background: navy;
+  color: #fff;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background: navy;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
